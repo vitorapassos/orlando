@@ -1,0 +1,176 @@
+/* padding da imagem clubes*/
+#vsfd {
+    padding-left: 100px;
+}
+
+#logo {
+    margin-top: -20px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.nvgtor {
+    margin-right: -70px;
+    position: relative;
+}
+
+.inputPesquisar {
+    background-color: rgba(99, 52, 146, 0.692);
+    border: none;
+    height: 30px;
+    caret-color: white;
+    /* Cor branca na barrinha que pisca */
+    padding-left: 10px;
+    /* Desgruda a barrinha do canto esquerdo */
+}
+
+.inputPesquisar::placeholder {
+    color: #FFF;
+    opacity: .7;
+    /*define a opacidade do placeholder, 1 é totalmente opaco */
+    padding-top: 50px;
+}
+
+/* Quando selecionar o campo não aparecer a borda */
+.inputPesquisar:focus {
+    outline: none;
+    border: none;
+    /* Se também quiser remover a borda padrão */
+}
+
+
+.fundo {
+    background-color: rgba(99, 52, 146, 0.692);
+    height: 140px;
+    position: absolute;
+    width: 100%;
+}
+
+.bg {
+    background-color: #FFF;
+}
+
+.img-banner {
+    margin-top: 31px;
+    width: 100%;
+    background-image: url(img/banner.jpg);
+}
+
+.textobanner {
+    margin-top: -400px;
+    margin-left: 50px;
+    height: 500px;
+}
+
+.tamanho {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: rgb(253, 225, 146);
+    height: 5px;
+}
+
+/* CARDS */
+
+.cg {
+    padding-bottom: 100px;
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 400px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.tituloCards {
+    color: rgb(99, 52, 146);
+}
+
+/* INFOS */
+.infos {
+    background-color: rgb(99, 52, 146);
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.destaques {
+    color: rgb(253, 225, 146);
+    font-size: 5em;
+    margin-bottom: -10px;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+}
+
+/* American club number one in Brazil*/
+
+.american {
+    padding-top: 100px;
+}
+
+.escritas {
+    padding-top: 100px;
+}
+
+.escritas2 {
+    margin-top: -20px;
+}
+
+.gbttn {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.bttns {
+    width: 200px;
+    height: 55px;
+}
+
+.bshop {
+    background-color: rgb(99, 52, 146);
+}
+
+.breg {
+    background-color: rgb(253, 225, 146);
+}
+
+.bshop:hover {
+    background-color: rgb(69, 36, 102);
+    /*transforma o cursor em ponteiro (dedo indicando)*/
+    cursor: pointer;
+}
+
+.breg:hover {
+    background-color: rgb(182, 161, 105);
+    /*transforma o cursor em ponteiro (dedo indicando)*/
+    cursor: pointer;
+}
+
+ /*Rodapé*/
+footer{
+    height: 200px;
+    background-color: rgb(23,31,38);
+}
+
+.rodape{
+    height: 75px;
+    background-color: rgb(17,23,29);
+    margin-bottom: 0;
+}
