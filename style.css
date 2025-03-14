@@ -106,7 +106,9 @@ div.desc {
     margin-right: auto;
     text-align: center;
     padding-top: 60px;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .destaques {
@@ -120,6 +122,10 @@ div.desc {
 }
 
 /* American club number one in Brazil*/
+
+.americanclub{
+    color: rgb(94,41,154);
+}
 
 .american {
     padding-top: 100px;
@@ -163,14 +169,40 @@ div.desc {
     cursor: pointer;
 }
 
- /*Rodapé*/
-footer{
+/*Rodapé*/
+footer {
     height: 200px;
-    background-color: rgb(23,31,38);
+    background-color: rgb(23, 31, 38);
+    border-bottom: 3px solid;
 }
 
-.rodape{
-    height: 75px;
-    background-color: rgb(17,23,29);
+.rodape {
+    height: 35px;
+    background-color: rgb(17, 23, 29);
     margin-bottom: 0;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+#logofinal {
+    width: 40px;
+}
+
+.hrhr{
+    border: 0.1px solid #575757;
+}
+
+.col a{
+    justify-content: space-around;
+}
+
+.locIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.telIcon{
+    width: 35px;
+    height: 35px;
 }
